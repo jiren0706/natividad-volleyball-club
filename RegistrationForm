@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natividad Volleyball Club Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .form-section {
+            padding: 20px;
+        }
+        .privacy-section {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ddd;
+        }
+        h1, h2 {
+            color: #d32f2f;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #d32f2f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #b71c1c;
+        }
+        .privacy-section p {
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        .privacy-section h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h1>Natividad Volleyball Club Blazing Phoenix</h1>
+            <h2>Registration Form</h2>
+            <p>Please fill out the following details to register for the Natividad Volleyball Club Blazing Phoenix.</p>
+            
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="birthdate">Date of Birth *</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+
+                <label for="gender">Gender *</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="address">Address *</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="emergency-contact">Emergency Contact Name *</label>
+                <input type="text" id="emergency-contact" name="emergency-contact" required>
+
+                <label for="emergency-phone">Emergency Contact Phone *</label>
+                <input type="tel" id="emergency-phone" name="emergency-phone" required>
+
+                <label for="position">Preferred Playing Position</label>
+                <select id="position" name="position">
+                    <option value="">Select Position</option>
+                    <option value="setter">Setter</option>
+                    <option value="outside-hitter">Outside Hitter</option>
+                    <option value="middle-blocker">Middle Blocker</option>
+                    <option value="opposite-hitter">Opposite Hitter</option>
+                    <option value="libero">Libero</option>
+                </select>
+
+                <label for="experience">Volleyball Experience</label>
+                <textarea id="experience" name="experience" rows="4" placeholder="Describe your previous volleyball experience, if any."></textarea>
+
+                <label for="medical-conditions">Medical Conditions (if any)</label>
+                <textarea id="medical-conditions" name="medical-conditions" rows="4" placeholder="List any medical conditions or allergies."></textarea>
+
+                <label>
+                    <input type="checkbox" name="consent" required>
+                    I have read and agree to the Data Privacy and Consent Form below.
+                </label>
+
+                <button type="submit">Submit Registration</button>
+            </form>
+        </div>
+
+        <div class="privacy-section">
+            <h3>Data Privacy and Consent Form</h3>
+            <p><strong>Natividad Volleyball Club Blazing Phoenix</strong> is committed to protecting your personal information in accordance with applicable data protection laws. This Data Privacy and Consent Form outlines how we collect, use, and protect your personal data.</p>
+            
+            <h4>1. Collection of Personal Information</h4>
+            <p>We collect personal information such as your full name, date of birth, gender, address, email address, phone number, emergency contact details, and medical conditions to facilitate your registration and participation in the club.</p>
+
+            <h4>2. Purpose of Data Collection</h4>
+            <p>Your personal information will be used for the following purposes:</p>
+            <ul>
+                <li>Processing your registration and membership.</li>
+                <li>Contacting you regarding club activities, events, and updates.</li>
+                <li>Ensuring your safety by maintaining emergency contact and medical information.</li>
+                <li>Improving our services and programs.</li>
+            </ul>
+
+            <h4>3. Data Sharing</h4>
+            <p>Your personal information will not be shared with third parties except:</p>
+            <ul>
+                <li>With your explicit consent.</li>
+                <li>When required by law or to protect the safety of club members.</li>
+                <li>With coaches, medical personnel, or event organizers, as necessary for club activities.</li>
+            </ul>
+
+            <h4>4. Data Security</h4>
+            <p>We implement appropriate technical and organizational measures to safeguard your personal information against unauthorized access, loss, or misuse.</p>
+
+            <h4>5. Your Rights</h4>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access and review your personal information.</li>
+                <li>Request corrections to inaccurate or incomplete data.</li>
+                <li>Withdraw your consent and request deletion of your data, subject to legal obligations.</li>
+            </ul>
+
+            <h4>6. Consent</h4>
+            <p>By signing up for the Natividad Volleyball Club Blazing Phoenix, you consent to the collection, use, and processing of your personal information as described in this form. You may withdraw your consent at any time by contacting us at <strong>natividadvolleyballclub2022@yahoo.com</strong>.</p>
+
+            <p>For any questions or concerns regarding your personal information, please contact us at <strong>natividadvolleyballclub2022@yahoo.com</strong>.</p>
+        </div>
+    </div>
+</body>
+</html>
